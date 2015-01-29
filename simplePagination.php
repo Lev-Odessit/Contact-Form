@@ -36,7 +36,6 @@
 
             }
 
-
             // Page will start from 0 and Multiple by Per Page
             $start_from = ($page-1) * $per_page;
 
@@ -51,6 +50,13 @@
                 mysqli_query($connect,$query) or die(mysqli_error($connect));
             }
 
+            $result = mysqli_query($connect, "SELECT * FROM students");
+
+            // Count the total records
+            $total_records = mysqli_num_rows($result);
+
+            //Using ceil function to divide the total records on per page
+            $total_pages = ceil($total_records / $per_page);
 
         ?>
         <div class="container">
@@ -67,10 +73,10 @@
                         while ($row = mysqli_fetch_array($result)) {
                             ?>
                             <tr align="center">
-                                <td><?php echo $row['name']; ?></td>
-                                <td><?php echo $row['mail']; ?></td>
-                                <td><?php echo $row['country']; ?></td>
-                                <td><?php echo "<a name=\"del\" href=\"simplePagination.php?del=".$row['id']."\">Удалить</a>" ?></td>
+                                <td><?= $row['name']; ?></td>
+                                <td><?= $row['mail']; ?></td>
+                                <td><?= $row['country']; ?></td>
+                                <td><?= "<a name=\"del\" href=\"simplePagination.php?del=".$row['id']."\">Удалить</a>" ?></td>
                             </tr>
                         <?php
                         };
@@ -79,27 +85,16 @@
 
                     <div class="pagination_block">
 
+                        <?=  "<nav><ul class=\"pagination\"> <li><a href='simplePagination.php?page=1' aria-label=\"Previous\"><span aria-hidden=\"true\">&laquo;</span></a></li>"; ?>
+
                         <?php
-
-                            $result = mysqli_query($connect, "SELECT * FROM students");
-
-                            // Count the total records
-                            $total_records = mysqli_num_rows($result);
-
-                            //Using ceil function to divide the total records on per page
-                            $total_pages = ceil($total_records / $per_page);
-
-                            //Going to first page
-                            echo "<nav><ul class=\"pagination\">
-                                        <li><a href='simplePagination.php?page=1' aria-label=\"Previous\"><span aria-hidden=\"true\">&laquo;</span></a></li>";
-
                             for ($i=1; $i<=$total_pages; $i++) {
                                 echo "<li><a  href='simplePagination.php?page=".$i."'>$i</a></li>";
                             };
-                            // Going to last page
-                            echo "<li><a href='simplePagination.php?page=$total_pages' aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a></li></ul></nav>";
-
                         ?>
+
+                        <?= "<li><a href='simplePagination.php?page=$total_pages' aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a></li></ul></nav>"; ?>
+
 
                     </div> <!-- pagination div -->
                 </div> <!--  table&pagination div -->
