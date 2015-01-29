@@ -1,47 +1,58 @@
 $(document).ready(function(){
 
-    var app = {
+    var app;
+    app = {
 
-        initialize : function () {
+        initialize: function () {
             this.setUpListeners();
         },
 
 
-        setUpListeners : function () {
+        setUpListeners: function () {
             form = $('form');
             form.on('submit', app.submitForm);
-            form.on('keydown','input', app.removeError);
+            form.on('keydown', 'input', app.removeError);
         },
 
-        submitForm : function (e){
+        submitForm: function (e) {
             e.preventDefault();
 
             var form = $(this),
                 submitBtn = form.find('button[type="submit"]');
 
-            if ( app.validateForm(form) === false ) {
+            if (app.validateForm(form) === false) {
                 return false;
             }
 
-            submitBtn.attr('disabled','disabled');
+            submitBtn.attr('disabled', 'disabled');
 
-            console.log('go to ajax');
+            var str = form.serialize();
+
+            $.ajax({
+                url: 'create_contact.php',
+                type: 'POST',
+                data: str,
+                success: function () {
+                    alert('Контакт успешно создан');
+                    $('form').load('newContactListForm.php form');
+                }
+            })
         },
 
-        validateForm : function(form) {
+        validateForm: function (form) {
             var inputs = form.find('input'),
                 valid = true;
 
             inputs.tooltip('destroy');
 
-            $.each(inputs, function(index,val) {
+            $.each(inputs, function (i, val) {
                 var input = $(val),
                     val = input.val(),
                     formGroup = input.parents('.form-group'),
                     label = formGroup.find('label').text().toLowerCase(),
                     textError = "Введите " + label;
 
-                if ( val.length === 0 ) {
+                if (val.length === 0) {
                     formGroup.addClass('has-error').removeClass('has-success');
                     input.tooltip({
                         trigger: 'manual',
@@ -58,7 +69,7 @@ $(document).ready(function(){
             return valid;
         },
 
-        removeError : function () {
+        removeError: function () {
             $(this).tooltip('destroy').parents('.form-group').removeClass('has-error');
         }
 

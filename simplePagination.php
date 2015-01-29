@@ -78,6 +78,7 @@
                     </table>
 
                     <div class="pagination_block">
+
                         <?php
 
                             $result = mysqli_query($connect, "SELECT * FROM students");
@@ -97,6 +98,7 @@
                             };
                             // Going to last page
                             echo "<li><a href='simplePagination.php?page=$total_pages' aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a></li></ul></nav>";
+
                         ?>
 
                     </div> <!-- pagination div -->

@@ -19,22 +19,6 @@
     </head>
     <body>
 
-        <?php
-
-            $connect = mysqli_connect('localhost','root') or die(mysqli_error($connect));
-            mysqli_select_db($connect, 'mytest');
-
-            if (isset($_POST['submit'])) {
-
-                $name = addslashes($_POST['name']);
-                $mail = $_POST['mail'];
-                $country = $_POST['country'];
-
-                $query = mysqli_query($connect,"INSERT INTO students VALUES('','$name','$mail','$country')") or die(mysqli_error($connect));
-            }
-
-        ?>
-
 
         <div class="container">
             <div class="row">
@@ -48,7 +32,7 @@
             <div class="row">
                 <div class="register_inputs col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4 col-xs-4 col-sm-4 col-md-4 col-lg-4">
 
-                    <form class="form-horizontal" role="form" >
+                    <form class="form-horizontal" role="form">
 
                         <div class="form-group">
                             <label for="name" class="col-sm-2 control-label">Name</label>
