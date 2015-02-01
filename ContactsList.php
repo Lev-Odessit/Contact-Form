@@ -5,16 +5,16 @@
     <title>Contact List</title>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="css/style.css"/>
-
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
 
-    <script src="script/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css"/>
 
     <script src="bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
     <script src="bower_components/bootstrap/js/tooltip.js" type="text/javascript"></script>
+
+    <script src="script/main.js" type="text/javascript"></script>
 
 </head>
     <body>
@@ -31,26 +31,21 @@
                 $page=1;
             }
 
-            // Page will start from 0 and Multiple by Per Page
             $start_from = ($page-1) * $per_page;
 
-            //Selecting the data from table but with limit
             $query = "SELECT * FROM students LIMIT $start_from,$per_page";
             $result = mysqli_query($connect, $query);
 
             if(isset($_GET['del'])) {
                 $del = intval($_GET['del']);
                 $query = "DELETE FROM students WHERE id = $del";
-                /* Выполняем запрос. Если произойдет ошибка - вывести ее. */
                 mysqli_query($connect,$query) or die(mysqli_error($connect));
             }
 
             $result = mysqli_query($connect, "SELECT * FROM students ORDER BY id DESC");
 
-            // Count the total records
             $total_records = mysqli_num_rows($result);
 
-            //Using ceil function to divide the total records on per page
             $total_pages = ceil($total_records / $per_page);
 
 
