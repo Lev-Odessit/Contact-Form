@@ -25,15 +25,10 @@
             $per_page=20;
 
             if (isset($_GET["page"])) {
-
                 $page = $_GET["page"];
-
             }
-
             else {
-
                 $page=1;
-
             }
 
             // Page will start from 0 and Multiple by Per Page
@@ -50,13 +45,14 @@
                 mysqli_query($connect,$query) or die(mysqli_error($connect));
             }
 
-            $result = mysqli_query($connect, "SELECT * FROM students");
+            $result = mysqli_query($connect, "SELECT * FROM students ORDER BY id DESC");
 
             // Count the total records
             $total_records = mysqli_num_rows($result);
 
             //Using ceil function to divide the total records on per page
             $total_pages = ceil($total_records / $per_page);
+
 
         ?>
         <div class="container">
@@ -76,7 +72,7 @@
                                 <td><?= $row['name']; ?></td>
                                 <td><?= $row['mail']; ?></td>
                                 <td><?= $row['country']; ?></td>
-                                <td><?= "<a name=\"del\" href=\"simplePagination.php?del=".$row['id']."\">Удалить</a>" ?></td>
+                                <td><?= "<a name=\"del\" href=\"ContactsList.php?del=".$row['id']."\">Удалить</a>" ?></td>
                             </tr>
                         <?php
                         };
@@ -85,15 +81,15 @@
 
                     <div class="pagination_block">
 
-                        <?=  "<nav><ul class=\"pagination\"> <li><a href='simplePagination.php?page=1' aria-label=\"Previous\"><span aria-hidden=\"true\">&laquo;</span></a></li>"; ?>
+                        <?=  "<nav><ul class=\"pagination\"> <li><a href='ContactsList.php?page=1' aria-label=\"Previous\"><span aria-hidden=\"true\">&laquo;</span></a></li>"; ?>
 
                         <?php
                             for ($i=1; $i<=$total_pages; $i++) {
-                                echo "<li><a  href='simplePagination.php?page=".$i."'>$i</a></li>";
+                                echo "<li><a  href='ContactsList.php?page=".$i."'>$i</a></li>";
                             };
                         ?>
 
-                        <?= "<li><a href='simplePagination.php?page=$total_pages' aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a></li></ul></nav>"; ?>
+                        <?= "<li><a href='ContactsList.php?page=$total_pages' aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a></li></ul></nav>"; ?>
 
 
                     </div> <!-- pagination div -->

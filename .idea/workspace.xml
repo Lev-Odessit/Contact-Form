@@ -25,21 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simplePagination.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplePagination.php">
+      <file leaf-file-name="ContactsList.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ContactsList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.923077" vertical-offset="1278" max-vertical-offset="1938">
-              <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.4256757" vertical-offset="581" max-vertical-offset="1785">
+              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding>
-                <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-                <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-                <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-                <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-                <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-                <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-                <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-                <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-                <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
+                <marker date="1422549369358" expanded="true" signature="1226:1267" placeholder="SELECT * FRO..students..." />
+                <marker date="1422549369358" expanded="true" signature="1232:1267" placeholder="SELECT * FRO..students..." />
+                <marker date="1422549369358" expanded="true" signature="1443:1475" placeholder="DELETE FROM ..." />
+                <marker date="1422549369358" expanded="true" signature="1698:1737" placeholder="SELECT * FRO..students..." />
               </folding>
             </state>
           </provider>
@@ -48,9 +43,21 @@
       <file leaf-file-name="newContactListForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newContactListForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="476" max-vertical-offset="1326">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="204" max-vertical-offset="1462">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+              <folding>
+                <marker date="1422552304527" expanded="true" signature="375:433" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,23 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create_contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="374">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <marker date="1422443904518" expanded="true" signature="343:401" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="270" max-vertical-offset="1445">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -103,11 +98,13 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/POST.php" />
         <option value="$PROJECT_DIR$/registerPagination.php" />
-        <option value="$PROJECT_DIR$/create_contact.php" />
-        <option value="$PROJECT_DIR$/newContactListForm.php" />
-        <option value="$PROJECT_DIR$/simplePagination.php" />
-        <option value="$PROJECT_DIR$/script/main.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/simplePagination.php" />
+        <option value="$PROJECT_DIR$/newContactListForm.php" />
+        <option value="$PROJECT_DIR$/ContactsList.php" />
+        <option value="$PROJECT_DIR$/script/main.js" />
+        <option value="$PROJECT_DIR$/emailValidator.php" />
+        <option value="$PROJECT_DIR$/create_contact.php" />
       </list>
     </option>
   </component>
@@ -193,7 +190,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -239,24 +236,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="1938">
-          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newContactListForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1326">
@@ -278,7 +257,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1422443904518" expanded="true" signature="343:401" placeholder="INSERT INTO ..." />
+            <marker date="1422552304527" expanded="true" signature="375:433" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -288,24 +267,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1904">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -333,24 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1904">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1173">
@@ -364,24 +307,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2754">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,21 +333,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1156">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1105">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -442,24 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2856">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1156">
@@ -473,58 +378,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1105">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2856">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1156">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1105">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1394">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,24 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1326">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../register/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
@@ -568,64 +403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../register/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.1153846" vertical-offset="428" max-vertical-offset="1071">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="374">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1422443904518" expanded="true" signature="343:401" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplePagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.923077" vertical-offset="1278" max-vertical-offset="1938">
-          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding>
-            <marker date="1422472477425" expanded="true" signature="1232:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1232:1282" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1255:1273" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1481" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="1449:1485" placeholder="DELETE FROM ..." />
-            <marker date="1422472477425" expanded="true" signature="3084:3106" placeholder="SELECT * FRO..students..." />
-            <marker date="1422472477425" expanded="true" signature="3490:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3519:3654" placeholder="..." />
-            <marker date="1422472477425" expanded="true" signature="3565:3654" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newContactListForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1326">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,9 +420,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="270" max-vertical-offset="1445">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1422552304527" expanded="true" signature="375:433" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newContactListForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="204" max-vertical-offset="1462">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContactsList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4256757" vertical-offset="581" max-vertical-offset="1785">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+          <folding>
+            <marker date="1422549369358" expanded="true" signature="1226:1267" placeholder="SELECT * FRO..students..." />
+            <marker date="1422549369358" expanded="true" signature="1232:1267" placeholder="SELECT * FRO..students..." />
+            <marker date="1422549369358" expanded="true" signature="1443:1475" placeholder="DELETE FROM ..." />
+            <marker date="1422549369358" expanded="true" signature="1698:1737" placeholder="SELECT * FRO..students..." />
+          </folding>
         </state>
       </provider>
     </entry>

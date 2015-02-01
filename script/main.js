@@ -34,7 +34,7 @@ $(document).ready(function(){
                 data: str,
                 success: function () {
                     alert('Контакт успешно создан');
-                    $('form').load('newContactListForm.php form');
+                    document.location.replace("ContactsList.php");
                 }
             })
         },

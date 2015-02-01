@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                    <a href="simplePagination.php" class="pull-left">
+                    <a href="ContactsList.php" class="pull-left">
                         <img src="image/arrow_right_2.png" alt=""/>
                     </a>
                     <h1 class="pull-left">Create new contact:</h1>
@@ -37,21 +37,29 @@
                         <div class="form-group">
                             <label for="name" class="col-sm-2 control-label">Name</label>
                             <div class="col-sm-10">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="|Name">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="|Name" autocomplete="off">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="Email" class="col-sm-2 control-label">Email</label>
                             <div class="col-sm-10">
-                                <input type="email" name="mail" class="form-control" id="email" placeholder="|Email">
+                                <input type="email" name="mail" class="form-control" id="Email" placeholder="|Email" autocomplete="off">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="Country" class="col-sm-2 control-label">Country</label>
                             <div class="col-sm-10">
-                                <input type="text" name="country" class="form-control" id="Country" placeholder="|Country">
+                                <input type="text" name="country" class="form-control" id="Country" placeholder="|Country" list="country_list" autocomplete="off">
+                                <datalist id="country_list">
+                                    <!--[if IE]><select><!--<![endif]-->
+                                    <option>Украина</option>
+                                    <option>Россия</option>
+                                    <option>Беларуссия</option>
+                                    <option>США</option>
+                                    <!--[if IE]></select><!--<![endif]-->
+                                </datalist>
                             </div>
                         </div>
 
